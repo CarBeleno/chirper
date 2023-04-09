@@ -12,7 +12,7 @@
 			<x-input-error :messages="$errors->get('message')" class="mt-2" />
 				<x-primary-button class="mt-4">{{ __('chirp') }}</x-primary-button>
 			</form>
-		</div>	
+			
 
 		<div class="mt-6 bg-white shadow-sm rounded-lg divide-y">
 			@foreach ($chirps as $chirp)
@@ -31,6 +31,8 @@
 				</div>
 			</div>
 			@endforeach
+		</div>
+
 		</div>
 		
 		
